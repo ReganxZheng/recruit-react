@@ -2,10 +2,6 @@ export interface RegistionFormProps {
   onSubmit: (values: FormikValues) => void;
 }
 
-export interface RegistionFormWrapperProps {
-  shouldDisplay: boolean;
-}
-
 export interface FieldInputProps {
   onChange: (val: string) => void;
 }

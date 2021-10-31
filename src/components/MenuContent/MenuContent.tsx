@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
 import { MenuContentWrapper } from './MenuContent.styled';
-import { MenuToggleContext } from '../../store/context';
+import { MenuToggleContext } from 'src/store/context';
 
 export const MenuContent = () => {
   const { state } = useContext(MenuToggleContext);

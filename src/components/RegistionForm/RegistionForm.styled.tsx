@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import { ErrorMessage } from 'formik';
 
-import { RegistionFormWrapperProps } from './types';
+import { StyledWrapperProps } from 'src/common/types';
 
-export const RegistionFormWrapper = styled.div<RegistionFormWrapperProps>`
+export const RegistionFormWrapper = styled.div<StyledWrapperProps>`
   display: ${(props) => (props.shouldDisplay ? 'none' : 'block')};
   max-width: 768px;
   padding: 0 48px;

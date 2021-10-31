@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 
+import { ActionMap } from 'src/store/types';
 import { HeaderWrapper, HeaderTitle, BurgerIcon, BackIcon } from './Header.styled';
-import { MenuToggleContext } from '../../store/context';
-import { ActionMap } from '../../store/types';
+import { MenuToggleContext } from 'src/store/context';
 
 export const Header = () => {
   const { state, dispatch } = useContext(MenuToggleContext);

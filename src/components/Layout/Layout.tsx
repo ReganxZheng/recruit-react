@@ -1,7 +1,7 @@
 import { LayoutWrapper } from './Layout.styled';
 import { LayoutProps } from './types';
 import { Header } from '../Header';
-import { MenuToggleProvider } from '../../store/context';
+import { MenuToggleProvider } from 'src/store/context';
 
 export const Layout = ({ children }: LayoutProps) => (
   <MenuToggleProvider>

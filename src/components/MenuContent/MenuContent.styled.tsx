@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { MenuContentProps } from './types';
+import { StyledWrapperProps } from 'src/common/types';
 
-export const MenuContentWrapper = styled.div<MenuContentProps>`
-  display: ${(props: MenuContentProps) => (props.shouldDisplay ? 'block' : 'none')};
+export const MenuContentWrapper = styled.div<StyledWrapperProps>`
+  display: ${(props: StyledWrapperProps) => (props.shouldDisplay ? 'block' : 'none')};
   font-size: x-large;
 `;
