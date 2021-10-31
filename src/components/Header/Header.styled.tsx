@@ -19,10 +19,10 @@ export const HeaderTitle = styled.h1`
 
 export const BurgerIcon = styled(MenuOutlined)`
   color: #ffffff;
-  font-size: large;
+  font-size: x-large;
 `;
 
 export const BackIcon = styled(ArrowLeftOutlined)`
   color: #ffffff;
-  font-size: large;
+  font-size: x-large;
 `;
