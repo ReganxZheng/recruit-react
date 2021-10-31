@@ -1,9 +1,8 @@
 import { LayoutWrapper } from './Layout.styled';
-import { LayoutProps } from './types';
 import { Header } from '../Header';
 import { MenuToggleProvider } from 'src/store/context';
 
-export const Layout = ({ children }: LayoutProps) => (
+export const Layout: React.FC = ({ children }) => (
   <MenuToggleProvider>
     <LayoutWrapper data-testid="test-layout">
       <Header />
