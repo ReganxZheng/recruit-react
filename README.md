@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f4cd9b03-dc5f-4efc-91da-ddf7f488f048/deploy-status)](https://app.netlify.com/sites/asb-recruit-react/deploys)
 
+[Live Demo](https://asb-recruit-react.netlify.app/)
+
 <!-- TABLE OF CONTENT -->
 <details>
     <summary>Table of Contents</summary>
