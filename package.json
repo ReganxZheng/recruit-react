@@ -19,8 +19,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,html}'"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +40,16 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "**/*.{js,json,css,html,ts,tsx,jsx}": [
+      "npm run format"
     ]
   }
 }
